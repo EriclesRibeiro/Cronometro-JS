@@ -6,10 +6,10 @@ body{
     width: 100%;
 }
 .container{
-    top: 50px;
+    background-color: rgba(189, 185, 185, 0.137);
     text-align: center;
-    width: 800px;
-    height: 400px;
+    width: 600px;
+    height: 100vh;
     margin: 0 auto;
     position: relative;
 }
@@ -17,8 +17,8 @@ body{
     background: rgb(238, 98, 5);
     color: rgb(255, 255, 255);
     font-size: 25px;
-    margin: 10px auto;
-    padding: 8px 20px;
+    margin: 40px auto;
+    padding: 8px 8px;
     cursor: pointer;
     border: 0;
     border-radius: 4px;
@@ -32,6 +32,7 @@ body{
     background: rgb(223, 91, 3);
 }
 select{
+    margin: 20px;
     padding: 8px;
     width: 70px;
     height: 40px;
@@ -49,12 +50,14 @@ select:hover{
     background: rgb(207, 85, 4);
 }
 #display h3{
+    margin:50px auto;
     font-family: 'Fjalla One', sans-serif;
     color: rgb(253, 105, 6);
-    font-size: 80px;
+    font-size: 70px;
 }
-#fimContagem{
+#fimContagem h3{
     font-family: 'Fjalla One', sans-serif;
     font-size: 20px;
-    color: rgb(238, 98, 5);
+    color: rgb(253, 105, 6);
+    box-shadow: black;
 }
