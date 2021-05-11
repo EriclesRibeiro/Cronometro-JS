@@ -12,7 +12,7 @@ let interval;
 for(let i = 0; i <= 60; i++){
     minutos.innerHTML += '<option value="'+i+'"> '+i+'</option>';
 }
-for(let i = 1; i <= 60; i++){
+for(let i = 0; i <= 60; i++){
     segundos.innerHTML += '<option value="'+i+'"> '+i+'</option>';
 }
 
