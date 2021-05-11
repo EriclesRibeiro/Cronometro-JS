@@ -1,0 +1,83 @@
+/*let idade = 16;
+let nome = 'Ericles';
+let pessoa = { // Objeto
+    nome: 'Ericles',
+    idade: '24',
+    estaAprovado: true,
+    sobrenome: 'Alberto'
+};
+//Arrays
+let nomeAmigo = ['Thiago', 25];
+console.log('Nome: ' + nomeAmigo[0] + ' Idade: ' + nomeAmigo[1]);*/
+
+
+//function
+//nome: verbo + substantivo
+/*let corSite = 'Azul'
+function resetaCor(cor, tonalidade){
+    corSite = cor + ' ' + tonalidade;
+};
+console.log(corSite);
+resetaCor('Verde', 'Claro');
+console.log(corSite);
+*/
+
+//Tipos de Função
+//Realiza tarefa e não devolve nada
+/*
+function dizerNome(){
+    console.log('Ericles');
+};
+
+// Faz um calculo e retorna algo
+function MultiplicarPorDois(valor){
+    return valor * 2;
+};
+let resultado = MultiplicarPorDois(2);
+console.log(resultado);
+*/
+
+//Operadores Aritiméticos
+//Operadores Atribuição
+//Operadores de comparação
+//Operadores Lógicos
+//Operadores Bitwise
+
+// Se cliente tiver 100 ele é premium, se tiver menos é comum
+/*let pontos = 200;
+
+let tipo = pontos > 100 ? 'Premium' : 'Comum';
+console.log(tipo);
+*/
+/*let idade = 18;
+
+let carteiradeTrabalho;
+maiorDeIdade = idade >= 18 ? true : false;
+possuiCarteiraDeTrabalho = idade >= 16 ? true : false;
+
+let podeAplicar = maiorDeIdade && possuiCarteiraDeTrabalho ? 'Aplicação válida!' : 'Aplicação inválida!';
+console.log(podeAplicar);
+*/
+
+//While loop
+// for-in
+/*const pessoa = {
+    nome: 'Ericles',
+    idade: 24
+};
+
+for(let chave in pessoa){
+    console.log(chave, pessoa.nome);
+}
+
+const cores = ['vermelho', 'azul', 'verde', 'amarelo'];
+
+for (let indice in cores){
+    console.log(indice, cores[indice]);
+}
+*/
+//for-of
+/*const cores = ['vermelho', 'amarelo', 'azul'];
+for(let cor of cores){
+    console.log(cor);
+}*/
