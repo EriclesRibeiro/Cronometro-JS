@@ -2,6 +2,7 @@ let display = document.getElementById("display");
 let minutos = document.getElementById("minutos");
 let segundos = document.getElementById("segundos");
 let comecar = document.getElementById("comecar");
+let fimContagem = document.getElementById("fimContagem")
 
 let cronometroSeg;
 let minutoAtual;
@@ -28,7 +29,7 @@ comecar.addEventListener('click', function(){
                 minutoAtual --;
                 segundoAtual = 59;
             } else {
-                alert('Acabou!');
+                fimContagem.childNodes[1].innerHTML = "Contagem finalizada!";
                 clearInterval(interval);
             }
         }
