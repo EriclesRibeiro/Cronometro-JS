@@ -11,7 +11,7 @@ body{
     height: 400px;
     margin: 0 auto;
 }
-button{
+.comecar{
     background: rgb(223, 223, 223);
     color: rgb(255, 255, 255);
     font-size: 25px;
@@ -26,15 +26,22 @@ button{
     font-family: 'Fjalla One', sans-serif;
     font-weight: 100;
 }
-button :hover{
-    background: rgb(204, 204, 204);
+.comecar:hover{
+    background: rgb(218, 217, 217);
 }
 select{
-    padding: 4px;
+    padding: 8px;
+    width: 50px;
+    height: 40px;
     font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
     border: 0;
+    border-radius: 4px;
     color: rgb(255, 255, 255);
-    background: rgb(188, 188, 189);
+    background: rgb(223, 223, 223);
+}
+select:hover{
+    background: rgb(218, 217, 217);
 }
 #display h3{
     font-family: 'Fjalla One', sans-serif;
